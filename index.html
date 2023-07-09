@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Portafolio</title>
+
+    <!-- Preload -->
+    <link rel="preload" href="build/css/index.css" as="style">
+    <link rel="stylesheet" href="build/css/index.css">
+    <link rel="preload" href="https://fonts.googleapis.com/css2?family=Karla:wght@300;500&display=swap"
+        crossorigin="crossorigin" as="font">
+    <link href="https://fonts.googleapis.com/css2?family=Karla:wght@300;500&display=swap" rel="stylesheet">
+    <link rel="preload" href="https://fonts.googleapis.com/css2?family=Asap:wght@300;400&display=swap"
+        crossorigin="crossorigin" as="font">
+    <link href="https://fonts.googleapis.com/css2?family=Asap:wght@300;400&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header class="hero">
+        <div class="hero-contenido">
+            <div class="header">
+                <div class="left">
+                    <img class="logotipo" loading="lazy" width="200" height="300" src="build/img/code-solid.svg"
+                        alt="Logo del sitio">
+                    <h1>Mi Portafolio</h1>
+                </div>
+                <nav class="navegacion">
+                    <a href="#presentacion" class="navegacion__enlace">Inicio</a>
+                    <a href="#conocimiento" class="navegacion__enlace">Conocimientos</a>
+                    <a href="#proyecto" class="navegacion__enlace">Proyectos</a>
+                    <a href="#contacto" class="navegacion__enlace">Contactame</a>
+                </nav>
+            </div>
+            <div class="hero__texto">
+                <h2>Desarrollo web Freelance</h2>
+                <p>Talara, Perú</p>
+                <a href="#" class="contactame">Contactame</a>
+            </div>
+        </div>
+    </header>
+    <div class="contenedor" id="presentacion">
+        <div class="presentacion">
+            <div class="presentacion-imagen">
+                <picture>
+                    <source srcset="build/img/perfil.avif" type="image/avif">
+                    <source srcset="build/img/perfil.webp" type="image/webp">
+                    <img loading="lazy" width="200" height="300" src="build/img/perfil.png" alt="Mi foto">
+                </picture>
+            </div>
+            <div class="presentacion-texto">
+                <p>
+                    ¡Hola y bienvenido/a a mi portafolio web!
+                    Mi nombre es Sebastian Chinga y me especializo
+                    tanto en el desarrollo web frontend como en el backend.
+                </p>
+                <p>
+                    Soy un entusiasta de aprender de forma autodidacta y
+                    estoy constantemente buscando oportunidades para expandir
+                    mis conocimientos en el campo de la tecnología. A través
+                    de mi dedicación y perseverancia, he adquirido habilidades
+                    sólidas en diversas tecnologías y lenguajes de programación.
+                </p>
+                <p>
+                    En mi portafolio encontrarás una variedad de proyectos en los
+                    que he trabajado, demostrando mi capacidad para abordar desafíos
+                    y entregar resultados exitosos. Cada proyecto refleja mi enfoque
+                    meticuloso en el diseño, la usabilidad y el rendimiento.
+                </p>
+                <p>
+                    Gracias por visitar mi portafolio web, ¡espero que disfrutes explorando mis proyectos!
+                </p>
+            </div>
+        </div>
+    </div>
+    <div class="contenedor espaciado" id="conocimiento">
+        <h2 class="centrar-texto">Mis conocimientos</h2>
+        <div class="conocimientos">
+            <div class="conocimiento">
+                <div class="conocimiento__imagen">
+                    <img loading="lazy" width="200" height="300" src="build/img/html5.svg" alt="Tecnología">
+                </div>
+                <h3>HTML</h3>
+            </div>
+            <div class="conocimiento">
+                <div class="conocimiento__imagen">
+                    <img loading="lazy" width="200" height="300" src="build/img/css3-alt.svg" alt="Tecnología">
+                </div>
+                <h3>CSS</h3>
+            </div>
+            <div class="conocimiento">
+                <div class="conocimiento__imagen">
+                    <img loading="lazy" width="200" height="300" src="build/img/js.svg" alt="Tecnología">
+                </div>
+                <h3>JavaScript</h3>
+            </div>
+            <div class="conocimiento">
+                <div class="conocimiento__imagen">
+                    <img loading="lazy" width="200" height="300" src="build/img/php.svg" alt="Tecnología">
+                </div>
+                <h3>PHP</h3>
+            </div>
+            <div class="conocimiento">
+                <div class="conocimiento__imagen">
+                    <img loading="lazy" width="200" height="300" src="build/img/laravel.svg" alt="Tecnología">
+                </div>
+                <h3>Laravel</h3>
+            </div>
+            <div class="conocimiento">
+                <div class="conocimiento__imagen">
+                    <img loading="lazy" width="200" height="300" src="build/img/sass.svg" alt="Tecnología">
+                </div>
+                <h3>SASS</h3>
+            </div>
+            <div class="conocimiento">
+                <div class="conocimiento__imagen">
+                    <img loading="lazy" width="200" height="300" src="build/img/gulp.svg" alt="Tecnología">
+                </div>
+                <h3>Gulp</h3>
+            </div>
+            <div class="conocimiento">
+                <div class="conocimiento__imagen">
+                    <img loading="lazy" width="200" height="300" src="build/img/database-solid.svg" alt="Tecnología">
+                </div>
+                <h3>Base de Datos</h3>
+            </div>
+        </div>
+    </div>
+    <main class="contenedor espaciado" id="proyecto">
+        <h2 class="centrar-texto">Mis proyectos</h2>
+        <div class="proyectos">
+            <div class="proyecto">
+                <a href="https://festival-musica-curso-2023.netlify.app" target="_blank">
+                    <picture>
+                        <source srcset="build/img/1.edm-festival.avif" type="image/avif">
+                        <source srcset="build/img/1.edm-festival.webp" type="image/webp">
+                        <img loading="lazy" width="200" height="300" src="build/img/1.edm-festival.png" alt="Proyecto">
+                    </picture>
+                </a>
+                <div class="proyecto__contenido">
+                    <h3 class="centrar-texto">Proyecto EDM Festival</h3>
+                    <div class="botones__flex">
+                        <a href="#" class="boton__html">HTML</a>
+                        <a href="#" class="boton__css">CSS</a>
+                        <a href="#" class="boton__js">JavaScript</a>
+                    </div>
+                </div>
+            </div>
+            <div class="proyecto">
+                <a href="https://inspiring-praline-b4a3fc.netlify.app" target="_blank">
+                    <picture>
+                        <source srcset="build/img/2.form-mensaje-exito.avif" type="image/avif">
+                        <source srcset="build/img/2.form-mensaje-exito.webp" type="image/webp">
+                        <img loading="lazy" width="200" height="300" src="build/img/2.form-mensaje-exito.png"
+                            alt="Proyecto">
+                    </picture>
+                </a>
+                <div class="proyecto__contenido">
+                    <h3 class="centrar-texto">Proyecto con formulario y mensaje de éxito</h3>
+                    <div class="botones__flex">
+                        <a href="#" class="boton__html">HTML</a>
+                        <a href="#" class="boton__css">CSS</a>
+                    </div>
+                </div>
+            </div>
+            <div class="proyecto">
+                <a href="https://fylo-landing2020.netlify.app" target="_blank">
+                    <picture>
+                        <source srcset="build/img/3.fylo.avif" type="image/avif">
+                        <source srcset="build/img/3.fylo.webp" type="image/webp">
+                        <img loading="lazy" width="200" height="300" src="build/img/3.fylo.png" alt="Proyecto">
+                    </picture>
+                </a>
+                <div class="proyecto__contenido">
+                    <h3 class="centrar-texto">Proyecto Fylo</h3>
+                    <div class="botones__flex">
+                        <a href="#" class="boton__html">HTML</a>
+                        <a href="#" class="boton__css">CSS</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <a href="proyectos.html" class="boton__mas">Más proyectos</a>
+    </main>
+    <div class="contenedor espaciado" id="contacto">
+        <h2 class="centrar-texto">Contáctame</h2>
+        <form action="" method="post" class="formulario">
+            <fieldset>
+                <legend>Completa los datos</legend>
+                <div class="campo">
+                    <label for="nombre">Nombre</label>
+                    <input type="text" id="nombre" placeholder="Tu nombre" required>
+                </div>
+                <div class="campo">
+                    <label for="correo">Correo</label>
+                    <input type="email" id="correo" placeholder="correo@example.com" required>
+                </div>
+                <div class="campo mensaje">
+                    <label for="mensaje">Mensaje</label>
+                    <textarea id="mensaje" placeholder="Escribe un mensaje" required></textarea>
+                </div>
+                <div class="submit">
+                    <button type="submit">Enviar información</button>
+                </div>
+            </fieldset>
+        </form>
+    </div>
+
+    <script src="build/js/app.js"></script>
+</body>
+
+</html>
