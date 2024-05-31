@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portafolio Personal</title>
+    <link rel="shortcut icon" href="/build/images/web-development.svg" type="image/x-icon">
+    <link rel="stylesheet" href="/build/css/index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+
+<body>
+    
+    <header class="contenedor header">
+        <a href="/">
+            <img src="/build/images/web-development.svg" alt="logo" class="header__imagen">
+        </a>
+        <a href="" id="link-menu" class="">
+            <img src="/build/images/menu.svg" alt="Logo" class="header__menu">
+        </a>
+        <nav class="ocultar-navegacion" id="navegacion">
+            <a href="/" class="header__link">Inicio</a>
+            <a href="/proyectos.html" class="header__link">Proyectos</a>
+            <a href="/contactame.html" class="header__link">Contacto</a>
+            <a href="" class="header__link" id="link-moon">
+                <img src="/build/images/moon.svg" class="header__link-icono" alt="Icono dark mode">
+            </a>
+        </nav>
+    </header>
+
+    <main class="contenedor">
+        <div class="principal">
+            <div class="principal__contenido">
+                <h1 class="principal__nombre">Soy <span>Sebastian Chinga</span></h1>
+                <p class="principal__presentacion">
+                    Soy un desarrollador web freelance y mi enfoque se centra en fusionar diseño creativo
+                    y funcionalidad innovadora para construir sitios web y aplicaciones
+                    que cautivan a los usuarios
+                </p>
+                <a href="/contactame.html" class="boton">Contáctame</a>
+                <div class="redes">
+                    <a href="https://github.com/sebastianchinga" class="redes__red-social" target="_blank">
+                        <img src="/build/images/github.svg" alt="logo de red social" class="redes__imagen">
+                    </a>
+                    <a href="https://www.linkedin.com/in/juan-sebastian-chinga-palacios/" class="redes__red-social" target="_blank">
+                        <img src="/build/images/linkedin.svg" alt="logo de red social" class="redes__imagen">
+                    </a>
+                    <a href="https://www.youtube.com/@SebastianChinga25" class="redes__red-social" target="_blank">
+                        <img src="/build/images/youtube.svg" alt="logo de red social" class="redes__imagen">
+                    </a>
+                </div>
+            </div>
+            <div class="principal__imagen">
+                <picture>
+                    <source srcset="/build/images/perfil.avif" type="image/avif">
+                    <source srcset="/build/images/perfil.webp" type="image/webp">
+                    <img  loading="lazy" width="200" height="300" src="/build/images/perfil.png" alt="perfil">
+                </picture>
+            </div>
+        </div>
+    </main>
+
+    <script src="/build/js/index.js"></script>
+</body>
+
+</html>

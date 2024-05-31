@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portafolio Personal</title>
+    <link rel="shortcut icon" href="/build/images/web-development.svg" type="image/x-icon">
+    <link rel="stylesheet" href="/build/css/index.css">
+</head>
+
+<body>
+
+    <header class="contenedor header">
+        <a href="/">
+            <img src="/build/images/web-development.svg" alt="logo" class="header__imagen">
+        </a>
+        <a href="" id="link-menu" class="">
+            <img src="/build/images/menu.svg" alt="Logo" class="header__menu">
+        </a>
+        <nav class="ocultar-navegacion" id="navegacion">
+            <a href="/" class="header__link">Inicio</a>
+            <a href="/proyectos.html" class="header__link">Proyectos</a>
+            <a href="/contactame.html" class="header__link">Contacto</a>
+            <a href="" class="header__link" id="link-moon">
+                <img src="/build/images/moon.svg" class="header__link-icono" alt="Icono dark mode">
+            </a>
+        </nav>
+    </header>
+
+    <main class="contenedor">
+        <h1 class="texto-centrado">Registrar</h1>
+        
+        <form method="POST" class="formulario">
+            <input type="text" name="nombre" id="nombre" placeholder="Nombre">
+            <input type="email" name="email" id="email" placeholder="Email">
+            <input type="password" name="password" id="password" placeholder="****">
+            <input type="submit" value="Regístrate" class="boton-guardar boton--inline">
+        </form>
+    </main>
+
+    <script src="/build/js/index.js"></script>
+</body>
+
+</html>
